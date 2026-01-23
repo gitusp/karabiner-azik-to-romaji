@@ -157,8 +157,8 @@
         // semicolon → ltu (always, for っ)
         { "type": "basic", "from": { "key_code": "semicolon" },
           "to": [ { "key_code": "l" }, { "key_code": "t" }, { "key_code": "u" } ] },
-        // colon (Shift+;) → hyphen (for ー long vowel)
-        { "type": "basic", "from": { "key_code": "semicolon", "modifiers": { "mandatory": ["shift"] } },
+        // ' → hyphen (for ー long vowel)
+        { "type": "basic", "from": { "key_code": "quote" },
           "to": [ { "key_code": "hyphen" } ] },
         // consonants (enable azik, send key)
         { "type": "basic", "from": { "key_code": "k" },
